@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/majcheradam/school-challenge-03/badge)](https://www.codefactor.io/repository/github/majcheradam/school-challenge-03)
 # Projekt: Odwzorowanie strony internetowej open.ai
 
 Autorzy: Dominik i Adam
