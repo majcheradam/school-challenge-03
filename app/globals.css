@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 @media all and (max-width: 1600px) {
   html h1,
   span {
@@ -28,8 +31,25 @@
     scale: 0.9;
   }
 }
-body {
-  margin: 0;
+@media all and (max-width: 1200px) {
+  html h1,
+  span {
+    font-size: 20px;
+  }
+  html h2 {
+    font-size: 10px;
+  }
+  .content-secondary {
+    scale: 0.8;
+  }
+  .content {
+    scale: 0.8;
+  }
+  .main-conteiner {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+  }
 }
 .main-conteiner {
   position: relative;
@@ -174,4 +194,8 @@ body {
 }
 .information p {
   margin-top: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }

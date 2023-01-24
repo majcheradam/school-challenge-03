@@ -60,7 +60,9 @@ export default function Home() {
               <span>
                 <p>© Open AITM 2014 - 2023</p>
               </span>
-              <p>Terms of Use</p>
+              <p>
+                <Link href="https://open.ai/terms">Terms of Use</Link>
+              </p>
             </div>
           </div>
         </footer>
