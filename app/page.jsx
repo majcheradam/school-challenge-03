@@ -47,6 +47,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <footer>
+          <div className="footer">
+            <div className="send">
+              <h2>Let me know when you're done baking!</h2>
+              <form>
+                <input type="text" placeholder="Enter you email" />
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div className="information">
+              <span>
+                <p>© Open AITM 2014 - 2023</p>
+              </span>
+              <p>Terms of Use</p>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   )

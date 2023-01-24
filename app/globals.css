@@ -1,17 +1,31 @@
 @media all and (max-width: 1600px) {
-  html h1 {
+  html h1,
+  span {
     font-size: 30px;
   }
   html h2 {
     font-size: 20px;
   }
+  .content-secondary {
+    scale: 1;
+  }
+  .content {
+    scale: 1;
+  }
 }
 @media all and (max-width: 1400px) {
-  html h1 {
+  html h1,
+  span {
     font-size: 25px;
   }
   html h2 {
     font-size: 15px;
+  }
+  .content-secondary {
+    scale: 0.9;
+  }
+  .content {
+    scale: 0.9;
   }
 }
 body {
@@ -28,6 +42,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .content {
   position: relative;
@@ -91,7 +106,7 @@ body {
 .form input:focus {
   box-shadow: 0px 0px 4px #000000;
 }
-button {
+.form button {
   position: absolute;
   right: 80px;
   top: 161px;
@@ -103,4 +118,60 @@ button {
   border: none;
   color: #000;
   cursor: pointer;
+}
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 130px;
+}
+.send h2 {
+  font-size: 1.2rem;
+  margin: 0 10px 30px 0;
+}
+.send input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000bf;
+  border-radius: 48px;
+  padding: 14px 114px 14px 24px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  box-shadow: none;
+  transition: 0.3s ease;
+  margin-top: -40px;
+}
+.send button {
+  position: absolute;
+  background: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: 0.2s ease;
+  right: 340px;
+  top: 80px;
+}
+.information {
+  position: relative;
+  text-align: end;
+}
+.information span p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.information p {
+  margin-top: 0;
 }
