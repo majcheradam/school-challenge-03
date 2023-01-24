@@ -1,4 +1,57 @@
-html {
-  font-family: -apple-system, Arial, 'Segoe UI', 'Open Sans', 'Helvetica Neue',
-    sans-serif;
+@media all and (max-width: 1600px) {
+  html h1 {
+    font-size: 30px;
+  }
+  html h2 {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 1400px) {
+  html h1 {
+    font-size: 25px;
+  }
+  html h2 {
+    font-size: 15px;
+  }
+}
+body {
+  margin: 0;
+}
+.main-conteiner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 32px 0 32px;
+  width: 1344px;
+  height: 789px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  position: relative;
+  width: 442px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 100px;
+}
+.logo {
+  background-color: #232323;
+  scale: 0.45;
+  width: auto;
+  height: auto;
+  margin-bottom: -48px;
+}
+.content span h1 {
+  font-size: 2rem;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.content h2 {
+  opacity: 0.5;
+  font-size: 1.9rem;
+  font-weight: normal;
 }
