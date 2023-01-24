@@ -25,3 +25,4 @@ Autorzy: Dominik i Adam
 W razie pytań lub problemów związanych z projektem, skontaktuj się z autorami poprzez discorda:
 
 - Dominik: Domun#5047
+- Adam: Prof3sor#4504
