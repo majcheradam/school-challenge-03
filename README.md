@@ -1,10 +1,10 @@
-# Projekt:Odwzorowanie strony internetowej
+# Projekt: Odwzorowanie strony internetowej open.ai
 
 Autorzy: Dominik i Adam
 
 ## Opis
 
--
+- Celem projektu było odwzorowanie wyglądu strony internetowej, serwisu open.ai, dla ćwiczeń w zakresie tworzenia stron internetowych.
 
 ## Technologie
 
@@ -25,4 +25,3 @@ Autorzy: Dominik i Adam
 W razie pytań lub problemów związanych z projektem, skontaktuj się z autorami poprzez discorda:
 
 - Dominik: Domun#5047
-- Adam: Prof3sor#4504
