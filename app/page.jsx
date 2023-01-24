@@ -30,7 +30,22 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          <div className="content-secondary"></div>
+          <div className="content-secondary">
+            <div className="form">
+              <h2>In the meantime...</h2>
+              <h1>Generate any image imaginable.</h1>
+              <form>
+                <input type="text" />
+                <button type="submit">Generate</button>
+              </form>
+              <Image
+                src="/Gallery.jpg"
+                alt="Gallery"
+                width="660"
+                height="304"
+              />
+            </div>
+          </div>
         </div>
       </main>
     </div>

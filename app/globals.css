@@ -44,6 +44,7 @@ body {
   width: auto;
   height: auto;
   margin-bottom: -48px;
+  margin-top: 15px;
 }
 .content span h1 {
   font-size: 2rem;
@@ -54,4 +55,52 @@ body {
   opacity: 0.5;
   font-size: 1.9rem;
   font-weight: normal;
+}
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 64px 35px 32px;
+}
+.form h2 {
+  opacity: 0.4;
+  font-size: 1.9rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.form h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 26px;
+  line-height: 60px;
+  font-weight: 900;
+}
+.form input {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 14px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: 1px solid #000000bf;
+  border-radius: 24px;
+  padding: 14px 104px 14px 24px;
+  color: #000;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.form input:focus {
+  box-shadow: 0px 0px 4px #000000;
+}
+button {
+  position: absolute;
+  right: 80px;
+  top: 161px;
+  background: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  color: #000;
+  cursor: pointer;
 }
