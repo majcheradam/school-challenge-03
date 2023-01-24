@@ -1,4 +1,4 @@
-# Projekt:Odwzorowanie projektu strony internetowej z serwisu Figma
+# Projekt:Odwzorowanie strony internetowej
 
 Autorzy: Dominik i Adam
 
