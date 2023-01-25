@@ -26,7 +26,7 @@ export default function Home() {
               </span>
               <h1>What would you do with them?</h1>
               <h2>
-                Open AI is working to make the world's best AI models open.
+                Open AI is working to make the world&apos;s best AI models open.
               </h2>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
         <footer>
           <div className="footer">
             <div className="send">
-              <h2>Let me know when you're done baking!</h2>
+              <h2>Let me know when you&apos;re done baking!</h2>
               <form>
                 <input type="text" placeholder="Enter you email" />
                 <button type="submit">Submit</button>
