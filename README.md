@@ -5,7 +5,7 @@ Autorzy: Dominik i Adam
 
 ## Opis
 
-- Celem projektu było odwzorowanie wyglądu strony internetowej, serwisu open.ai, dla ćwiczeń w zakresie tworzenia stron internetowych.
+- Celem projektu było odwzorowanie wyglądu strony internetowej, serwisu open.ai, dla ćwiczeń w zakresie tworzenia stron internetowych oraz nadanie jej responsywności na wszystkie urządzenia mobilne.
 
 ## Technologie
 
