@@ -2,33 +2,6 @@ body {
   margin: 0;
   height: 100vh;
 }
-@media all and (max-width: 1600px) {
-  html h1,
-  span {
-    font-size: 30px;
-  }
-  html h2 {
-    font-size: 20px;
-  }
-}
-@media all and (max-width: 1400px) {
-  html h1,
-  span {
-    font-size: 25px;
-  }
-  html h2 {
-    font-size: 15px;
-  }
-}
-@media all and (max-width: 1200px) {
-  html h1,
-  span {
-    font-size: 20px;
-  }
-  html h2 {
-    font-size: 10px;
-  }
-}
 .main-conteiner {
   position: relative;
   margin-left: auto;
@@ -121,15 +94,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 32px;
+  padding-bottom: 0px;
   width: 65vw;
   height: auto;
   display: flex;
   justify-content: end;
-  align-items: flex-end;
+  align-items: center;
   gap: 150px;
 }
 .send {
   width: 19vw;
+  min-width: 383px;
 }
 .send h2 {
   font-size: 1.2rem;
@@ -151,7 +126,7 @@ body {
   margin-top: -40px;
 }
 .send button {
-  position: absolute;
+  position: relative;
   background: none;
   font-size: 16px;
   font-weight: 700;
@@ -160,8 +135,8 @@ body {
   color: #000;
   cursor: pointer;
   transition: 0.2s ease;
-  right: 350px;
-  top: 78px;
+  top: -41px;
+  right: -275px;
 }
 .information {
   position: relative;
@@ -185,4 +160,52 @@ sup {
 a {
   color: inherit;
   text-decoration: none;
+}
+@media all and (1200px < width <= 1400px) {
+  .main-conteiner {
+    margin: 0 auto;
+    padding: 2rem 2rem 0px;
+  }
+  .content {
+    scale: 0.9;
+  }
+  .form {
+    scale: 0.9;
+  }
+}
+@media all and (600px < width <= 1200px) {
+  .content {
+    scale: 0.8;
+  }
+  .form {
+    scale: 0.8;
+  }
+  .footer {
+    width: 71vw;
+    justify-content: space-between;
+  }
+}
+@media all and (width <= 600px) {
+  .main-conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh;
+    padding: 0px;
+    display: block;
+  }
+  .form input {
+    width: 100vw;
+  }
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    scale: 0.9;
+  }
+  .form {
+    scale: 0.9;
+  }
+  .footer {
+    display: none;
+  }
 }
