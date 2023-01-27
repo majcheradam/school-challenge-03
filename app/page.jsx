@@ -58,7 +58,9 @@ export default function Home() {
             </div>
             <div className="information">
               <span>
-                <p>© Open AITM 2014 - 2023</p>
+                <p>
+                  © Open AI<sup>TM</sup> 2014 - 2023
+                </p>
               </span>
               <p>
                 <Link href="https://open.ai/terms">Terms of Use</Link>

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100vh;
 }
 @media all and (max-width: 1600px) {
   html h1,
@@ -8,12 +9,6 @@ body {
   }
   html h2 {
     font-size: 20px;
-  }
-  .content-secondary {
-    scale: 1;
-  }
-  .content {
-    scale: 1;
   }
 }
 @media all and (max-width: 1400px) {
@@ -24,12 +19,6 @@ body {
   html h2 {
     font-size: 15px;
   }
-  .content-secondary {
-    scale: 0.9;
-  }
-  .content {
-    scale: 0.9;
-  }
 }
 @media all and (max-width: 1200px) {
   html h1,
@@ -39,17 +28,6 @@ body {
   html h2 {
     font-size: 10px;
   }
-  .content-secondary {
-    scale: 0.8;
-  }
-  .content {
-    scale: 0.8;
-  }
-  .main-conteiner {
-    justify-content: center;
-    gap: 10px;
-    display: flex;
-  }
 }
 .main-conteiner {
   position: relative;
@@ -57,13 +35,12 @@ body {
   margin-right: auto;
   padding: 32px;
   padding-bottom: 0px;
-  width: 1344px;
-  height: 789px;
+  width: 71vw;
+  height: 81vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 .content {
   position: relative;
@@ -144,12 +121,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 32px;
-  width: 1200px;
+  width: 65vw;
   height: auto;
   display: flex;
   justify-content: end;
   align-items: flex-end;
-  gap: 130px;
+  gap: 150px;
+}
+.send {
+  width: 19vw;
 }
 .send h2 {
   font-size: 1.2rem;
@@ -180,11 +160,13 @@ body {
   color: #000;
   cursor: pointer;
   transition: 0.2s ease;
-  right: 340px;
-  top: 80px;
+  right: 350px;
+  top: 78px;
 }
 .information {
   position: relative;
+  width: auto;
+  height: 4.5vh;
   text-align: end;
 }
 .information span p {
@@ -194,6 +176,11 @@ body {
 }
 .information p {
   margin-top: 0;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+sup {
+  font-size: 0.5rem;
 }
 a {
   color: inherit;
