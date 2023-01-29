@@ -9,7 +9,7 @@ body {
   padding: 32px;
   padding-bottom: 0px;
   width: 71vw;
-  height: 81vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -17,16 +17,16 @@ body {
 }
 .content {
   position: relative;
-  width: 442px;
+  width: 25vw;
   height: auto;
   display: flex;
+  text-align: start;
   flex-direction: column;
   align-items: center;
   padding: 0 0 100px;
 }
 .logo {
-  background-color: #232323;
-  scale: 0.45;
+  scale: 0.47;
   width: auto;
   height: auto;
   margin-bottom: -48px;
@@ -93,29 +93,29 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 32px;
+  padding: 45px;
   padding-bottom: 0px;
   width: 65vw;
-  height: auto;
+  height: 10vh;
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 150px;
+  gap: 130px;
 }
 .send {
-  width: 19vw;
+  width: 20vw;
   min-width: 383px;
 }
 .send h2 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   margin: 0 10px 30px 0;
 }
 .send input {
-  width: 100%;
+  width: 360px;
   height: 100%;
   border: 1px solid #000000bf;
   border-radius: 48px;
-  padding: 14px 114px 14px 24px;
+  padding: 14px 114px 14px 20px;
   box-sizing: border-box;
   background: none;
   outline: none;
@@ -136,7 +136,7 @@ body {
   cursor: pointer;
   transition: 0.2s ease;
   top: -41px;
-  right: -275px;
+  right: -280px;
 }
 .information {
   position: relative;
