@@ -215,3 +215,36 @@ a {
     scale: 0.9;
   }
 }
+@media all and (width <= 600px) {
+  .main-conteiner {
+    min-width: 100vw;
+    min-height: 80vh;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    min-height: 25vh;
+    min-width: 100vw;
+  }
+  .content-text-box {
+    min-width: 100vw;
+  }
+  .content-text-box h2 {
+    font-size: 1rem;
+  }
+  .content-text-box span h1 {
+    font-size: 1rem;
+  }
+  .form {
+    min-width: 100vw;
+    padding: 0px;
+    scale: 0.8;
+  }
+  .logo {
+    scale: 0.3;
+  }
+  .send {
+    display: none;
+  }
+}
