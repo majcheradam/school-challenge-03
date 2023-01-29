@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 100vh;
+  max-height: 100vh;
 }
 .main-conteiner {
   position: relative;
@@ -8,7 +8,7 @@ body {
   margin-right: auto;
   padding: 32px;
   padding-bottom: 0px;
-  width: 71vw;
+  width: 72vw;
   height: 80vh;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ body {
 }
 .content {
   position: relative;
-  width: 25vw;
+  width: 470px;
   height: auto;
   display: flex;
   text-align: start;
@@ -161,51 +161,57 @@ a {
   color: inherit;
   text-decoration: none;
 }
-@media all and (1200px < width <= 1400px) {
+@media all and (1500px < width <= 1600px) {
   .main-conteiner {
-    margin: 0 auto;
-    padding: 2rem 2rem 0px;
-  }
-  .content {
-    scale: 0.9;
-  }
-  .form {
-    scale: 0.9;
-  }
-}
-@media all and (600px < width <= 1200px) {
-  .content {
-    scale: 0.8;
-  }
-  .form {
-    scale: 0.8;
-  }
-  .footer {
-    width: 71vw;
-    justify-content: space-between;
-  }
-}
-@media all and (width <= 600px) {
-  .main-conteiner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vh;
+    min-width: 100vw;
+    min-height: 80vh;
     padding: 0px;
-    display: block;
-  }
-  .form input {
-    width: 100vw;
+    padding-top: 32px;
+    justify-content: center;
+    gap: 100px;
   }
   .content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vw;
-    scale: 0.9;
-  }
-  .form {
-    scale: 0.9;
+    width: 30vw;
   }
   .footer {
-    display: none;
+    min-width: 75vw;
+    min-height: 10vh;
+  }
+}
+@media all and (1200px < width <= 1500px) {
+  .main-conteiner {
+    min-width: 100vw;
+    min-height: 80vh;
+    padding: 0px;
+    padding-top: 32px;
+    justify-content: center;
+    gap: 140px;
+  }
+  .content {
+    min-width: 400px;
+    scale: 0.85;
+  }
+  .form {
+    width: 600px;
+  }
+  .form h2 {
+    font-size: 1.5rem;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  .form button {
+    right: 80px;
+    top: 145px;
+  }
+  .logo {
+    scale: 0.43;
+  }
+  .footer {
+    min-width: 90vw;
+    min-height: 10vh;
+  }
+  .send {
+    scale: 0.9;
   }
 }
