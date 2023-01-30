@@ -26,7 +26,9 @@ export default function Home() {
               </span>
               <h1>What would you do with them?</h1>
               <h2>
-                Open AI is working to make the world&apos;s best AI models open.
+                Open AI is working to make the world&apos;s best AI models
+                <br />
+                open.
               </h2>
             </div>
           </div>
@@ -43,6 +45,7 @@ export default function Home() {
                 alt="Gallery"
                 width="660"
                 height="304"
+                className="gallery"
               />
             </div>
           </div>
